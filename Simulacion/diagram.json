@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "author": "SIMBIO – Universidad de Caldas",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+
+    { "type": "wokwi-text", "id": "tTitulo", "top": -268, "left": -480, "attrs": { "text": "SIMBIO – Tanque de 10 L (activación líquida de MM)" } },
+
+    { "type": "wokwi-text", "id": "tPh", "top": -220, "left": -470, "attrs": { "text": "pH PH-4502C (GPIO36)\ngirar a la derecha = más ácido" } },
+    { "type": "wokwi-potentiometer", "id": "potPh", "top": -180, "left": -440, "attrs": { "value": "506" } },
+
+    { "type": "wokwi-text", "id": "tGas", "top": -220, "left": -260, "attrs": { "text": "Gases MQ-135 (GPIO39)" } },
+    { "type": "wokwi-gas-sensor", "id": "gas1", "top": -190, "left": -300, "attrs": { "ppm": "400" } },
+
+    { "type": "wokwi-text", "id": "tDip", "top": -10, "left": -470, "attrs": { "text": "DIP 1 = calibración pH (GPIO35)" } },
+    { "type": "wokwi-dip-switch-8", "id": "dip1", "top": 15, "left": -440, "attrs": {} },
+    { "type": "wokwi-resistor", "id": "rDip", "top": 80, "left": -300, "attrs": { "value": "10000" } },
+
+    { "type": "wokwi-text", "id": "tBtn", "top": 110, "left": -470, "attrs": { "text": "LOTE (GPIO32)     OK/silenciar (GPIO33)" } },
+    { "type": "wokwi-pushbutton", "id": "btnLote", "top": 135, "left": -460, "attrs": { "color": "green", "label": "LOTE" } },
+    { "type": "wokwi-pushbutton", "id": "btnOk", "top": 135, "left": -330, "attrs": { "color": "blue", "label": "OK" } },
+
+    { "type": "wokwi-text", "id": "tNivel", "top": 210, "left": -470, "attrs": { "text": "Nivel HC-SR04 en la tapa (fondo a 30 cm)" } },
+    { "type": "wokwi-hc-sr04", "id": "us1", "top": 230, "left": -470, "attrs": { "distance": "7" } },
+
+    { "type": "wokwi-text", "id": "tDht", "top": 330, "left": -260, "attrs": { "text": "Ambiente DHT11→DHT22 (GPIO13)" } },
+    { "type": "wokwi-dht22", "id": "dht1", "top": 350, "left": -230, "attrs": { "temperature": "24", "humidity": "65" } },
+
+    { "type": "wokwi-text", "id": "tServo", "top": 330, "left": -60, "attrs": { "text": "Válvula de melaza SG90 (GPIO14)" } },
+    { "type": "wokwi-servo", "id": "servo1", "top": 355, "left": -60, "attrs": { "horn": "single" } },
+
+    { "type": "wokwi-text", "id": "tRfid", "top": -268, "left": 170, "attrs": { "text": "Lote RC522 (SS 5, RST 27)" } },
+    { "type": "board-mfrc522", "id": "rfid1", "top": -245, "left": 170, "attrs": {} },
+
+    { "type": "wokwi-text", "id": "tSd", "top": -268, "left": 430, "attrs": { "text": "Módulo SD (CS 26)" } },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": -235, "left": 430, "attrs": {} },
+
+    { "type": "wokwi-text", "id": "tRele", "top": -20, "left": 250, "attrs": { "text": "Relés 110 V (lado de potencia no simulado)" } },
+    { "type": "wokwi-relay-module", "id": "relAire", "top": 5, "left": 250, "attrs": {} },
+    { "type": "wokwi-relay-module", "id": "relCal", "top": 85, "left": 250, "attrs": {} },
+    { "type": "wokwi-resistor", "id": "rAire", "top": 15, "left": 430, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "rCal", "top": 95, "left": 430, "attrs": { "value": "330" } },
+    { "type": "wokwi-led", "id": "ledAire", "top": -5, "left": 540, "attrs": { "color": "blue", "label": "Bomba aire" } },
+    { "type": "wokwi-led", "id": "ledCal", "top": 75, "left": 540, "attrs": { "color": "orange", "label": "Calentador" } },
+
+    { "type": "wokwi-text", "id": "tSem", "top": 165, "left": 250, "attrs": { "text": "Semáforo del lote y alarma" } },
+    { "type": "wokwi-resistor", "id": "rRojo", "top": 195, "left": 250, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "rAmar", "top": 225, "left": 250, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "rVerde", "top": 255, "left": 250, "attrs": { "value": "330" } },
+    { "type": "wokwi-led", "id": "ledRojo", "top": 180, "left": 370, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "ledAmar", "top": 180, "left": 410, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-led", "id": "ledVerde", "top": 180, "left": 450, "attrs": { "color": "green" } },
+    { "type": "wokwi-buzzer", "id": "bz1", "top": 170, "left": 510, "attrs": { "volume": "0.2" } },
+
+    { "type": "wokwi-text", "id": "tDs", "top": 300, "left": 250, "attrs": { "text": "T del líquido DS18B20 (GPIO4)" } },
+    { "type": "wokwi-ds18b20", "id": "ds1", "top": 320, "left": 290, "attrs": { "temperature": "24" } },
+    { "type": "wokwi-resistor", "id": "rDs", "top": 330, "left": 380, "attrs": { "value": "4700" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+
+    [ "potPh:VCC", "esp:3V3", "red", [] ],
+    [ "potPh:GND", "esp:GND.1", "black", [] ],
+    [ "potPh:SIG", "esp:VP", "violet", [] ],
+
+    [ "gas1:VCC", "esp:3V3", "red", [] ],
+    [ "gas1:GND", "esp:GND.1", "black", [] ],
+    [ "gas1:AOUT", "esp:VN", "violet", [] ],
+
+    [ "dip1:1a", "esp:35", "orange", [] ],
+    [ "dip1:1b", "esp:GND.1", "black", [] ],
+    [ "rDip:1", "esp:35", "orange", [] ],
+    [ "rDip:2", "esp:3V3", "red", [] ],
+
+    [ "btnLote:1.l", "esp:32", "green", [] ],
+    [ "btnLote:2.l", "esp:GND.1", "black", [] ],
+    [ "btnOk:1.l", "esp:33", "blue", [] ],
+    [ "btnOk:2.l", "esp:GND.1", "black", [] ],
+
+    [ "us1:VCC", "esp:5V", "red", [] ],
+    [ "us1:GND", "esp:GND.1", "black", [] ],
+    [ "us1:TRIG", "esp:25", "gold", [] ],
+    [ "us1:ECHO", "esp:34", "gold", [] ],
+
+    [ "dht1:VCC", "esp:3V3", "red", [] ],
+    [ "dht1:GND", "esp:GND.1", "black", [] ],
+    [ "dht1:SDA", "esp:13", "green", [] ],
+
+    [ "servo1:V+", "esp:5V", "red", [] ],
+    [ "servo1:GND", "esp:GND.1", "black", [] ],
+    [ "servo1:PWM", "esp:14", "orange", [] ],
+
+    [ "rfid1:3.3V", "esp:3V3", "red", [] ],
+    [ "rfid1:GND", "esp:GND.2", "black", [] ],
+    [ "rfid1:RST", "esp:27", "white", [] ],
+    [ "rfid1:SDA", "esp:5", "cyan", [] ],
+    [ "rfid1:SCK", "esp:18", "yellow", [] ],
+    [ "rfid1:MOSI", "esp:23", "green", [] ],
+    [ "rfid1:MISO", "esp:19", "blue", [] ],
+
+    [ "sd1:VCC", "esp:3V3", "red", [] ],
+    [ "sd1:GND", "esp:GND.2", "black", [] ],
+    [ "sd1:SCK", "esp:18", "yellow", [] ],
+    [ "sd1:DI", "esp:23", "green", [] ],
+    [ "sd1:DO", "esp:19", "blue", [] ],
+    [ "sd1:CS", "esp:26", "cyan", [] ],
+
+    [ "relAire:VCC", "esp:5V", "red", [] ],
+    [ "relAire:GND", "esp:GND.2", "black", [] ],
+    [ "relAire:IN", "esp:21", "blue", [] ],
+    [ "relAire:COM", "esp:5V", "red", [] ],
+    [ "relAire:NO", "rAire:1", "blue", [] ],
+    [ "rAire:2", "ledAire:A", "blue", [] ],
+    [ "ledAire:C", "esp:GND.2", "black", [] ],
+
+    [ "relCal:VCC", "esp:5V", "red", [] ],
+    [ "relCal:GND", "esp:GND.2", "black", [] ],
+    [ "relCal:IN", "esp:22", "orange", [] ],
+    [ "relCal:COM", "esp:5V", "red", [] ],
+    [ "relCal:NO", "rCal:1", "orange", [] ],
+    [ "rCal:2", "ledCal:A", "orange", [] ],
+    [ "ledCal:C", "esp:GND.2", "black", [] ],
+
+    [ "esp:16", "rRojo:1", "red", [] ],
+    [ "rRojo:2", "ledRojo:A", "red", [] ],
+    [ "ledRojo:C", "esp:GND.3", "black", [] ],
+    [ "esp:17", "rAmar:1", "gold", [] ],
+    [ "rAmar:2", "ledAmar:A", "gold", [] ],
+    [ "ledAmar:C", "esp:GND.3", "black", [] ],
+    [ "esp:2", "rVerde:1", "green", [] ],
+    [ "rVerde:2", "ledVerde:A", "green", [] ],
+    [ "ledVerde:C", "esp:GND.3", "black", [] ],
+
+    [ "bz1:1", "esp:GND.3", "black", [] ],
+    [ "bz1:2", "esp:15", "purple", [] ],
+
+    [ "ds1:VCC", "esp:3V3", "red", [] ],
+    [ "ds1:GND", "esp:GND.3", "black", [] ],
+    [ "ds1:DQ", "esp:4", "green", [] ],
+    [ "rDs:1", "esp:4", "green", [] ],
+    [ "rDs:2", "esp:3V3", "red", [] ]
+  ],
+  "dependencies": {}
+}

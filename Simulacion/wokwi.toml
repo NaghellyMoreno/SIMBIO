@@ -1,0 +1,7 @@
+# Wokwi para VS Code: carga el binario que exporta Arduino IDE.
+# En Arduino IDE: placa "ESP32 Dev Module" -> Sketch -> Export Compiled Binary
+# (Opción+Cmd+S). Luego en VS Code: F1 -> "Wokwi: Start Simulator".
+[wokwi]
+version = 1
+firmware = 'simbio/build/esp32.esp32.esp32/simbio.ino.bin'
+elf = 'simbio/build/esp32.esp32.esp32/simbio.ino.elf'
