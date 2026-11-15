@@ -1,6 +1,6 @@
 # 01 · Alcance del proyecto y entregables
 
-**Estado:** vigente · **Última actualización:** 2026-11-14
+**Estado:** vigente · **Última actualización:** 2026-11-15
 
 ## Contexto
 SIMBIO es un prototipo mínimo viable (maqueta HW/SW) para los cursos *Automatización y Control de Procesos* (AyC) y *Fundamentos de IoT*, Ingeniería de Sistemas y Computación, Universidad de Caldas. Trabajo en parejas.
@@ -24,11 +24,11 @@ SIMBIO es un prototipo mínimo viable (maqueta HW/SW) para los cursos *Automatiz
 8. Modelo Canvas (Excel)
 9. Cierre: video demo, sustentación (EAiFi), artículo final, repositorio
 
-## Estado de cada entregable (13 nov 2026)
+## Estado de cada entregable (actualizado 15 nov 2026)
 | Entregable | Archivo | Estado |
 |---|---|---|
 | Talleres 1 y 2 | Doc "SIMBIO – Talleres 1 y 2" (Claude) | Actualizado 12 nov. Faltan nombres del equipo |
-| Formulación VIP | `SIMBIO_Formulacion_Proyecto.docx` | Falta pasar a 10 L, quitar ADS1115/RTC/12 V/LM2596, calentador 25 W, Anexo 1 |
+| Formulación VIP | `SIMBIO_Formulacion_Proyecto.docx` / `Karen_Naghelly_Moreno.docx` | **15 nov:** encabezado con integrantes, grupos y tipo de proyecto (ver [08](08-equipo-investigador.md)); sección c lista en el .docx; **d.4 redactada** en `Doc/textos/` y pendiente de pegar. Falta: corregir OE1 (OD → aireación), aplicar las correcciones de 06 en d.1 y d.2, título, resumen ejecutivo (b), d.5–d.8, presupuesto, pasar a 10 L, quitar ADS1115/RTC/12 V/LM2596, calentador 25 W, Anexo 1 |
 | Presupuesto | `Doc/SIMBIO – Presupuesto del proyecto.xlsx` | Ver [05-presupuesto](05-presupuesto.md) |
 | Artículo | `SIMBIO_Articulo_Borrador.docx` | Borrador con 34 refs. Falta actualizar hardware y resultados del piloto |
 | Informe AyC | `SIMBIO_Informe_AyC.docx` | Completo; falta actualizar a 10 L e instrumentación nueva |

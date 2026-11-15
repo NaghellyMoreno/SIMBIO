@@ -14,7 +14,9 @@
 | [decisiones/05-presupuesto.md](decisiones/05-presupuesto.md) | Plan de compras vigente y decisiones de presupuesto |
 | [decisiones/06-referencias.md](decisiones/06-referencias.md) | Normas, correcciones y datos verificados |
 | [decisiones/07-pendientes-y-preguntas.md](decisiones/07-pendientes-y-preguntas.md) | Preguntas abiertas y trabajo pendiente |
+| [decisiones/08-equipo-investigador.md](decisiones/08-equipo-investigador.md) | Integrantes, grupos, tipo de proyecto y roles (formato VIP) |
 
 ## Otros archivos de esta carpeta
+- `textos/` — textos listos para pegar en los entregables: sección c (equipo) y d.4 (metodología) de la formulación VIP.
 - `SIMBIO – Presupuesto del proyecto.xlsx` — hoja de presupuesto.
 - `Guia-Biofabrica-Anacafe.pdf` — guía de referencia.

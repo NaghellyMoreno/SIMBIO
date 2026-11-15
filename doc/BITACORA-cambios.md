@@ -2,6 +2,14 @@
 
 Entradas de la más reciente a la más antigua. Formato y obligatoriedad: ver [REGLA-documentacion-de-cambios.md](REGLA-documentacion-de-cambios.md).
 
+## 2026-11-15 · Equipo investigador y metodología de la formulación VIP
+- **Quién:** Claude (a pedido de Karen)
+- **Qué cambió:** se registraron los integrantes, los grupos, el tipo de proyecto y los roles; se redactaron la sección c (trayectoria del equipo, 493 palabras) y la d.4 (metodología en 3 fases, 995 palabras) de la formulación VIP; se fijaron las metas de validación del OE3 y el muestreo; se anotaron las inconsistencias del .docx (OE1 con OD, correcciones de referencias sin aplicar).
+- **Por qué:** completar las secciones c y d.4 del formato de formulación.
+- **Archivos afectados:** `Doc/textos/formulacion-c-equipo-investigadores.md`, `Doc/textos/formulacion-d4-metodologia.md`, `Doc/README.md`
+- **Documentos actualizados:** `decisiones/08-equipo-investigador.md` (nuevo, E1–E5), `decisiones/02-proceso-y-objetivos.md` (P7–P10 y objetivos de la formulación), `decisiones/01-alcance-y-entregables.md` (estado de la formulación), `decisiones/06-referencias.md` (R3), `decisiones/07-pendientes-y-preguntas.md`
+- **Pendiente derivado:** pegar la d.4 en el .docx; corregir el OE1; aplicar las correcciones de 06; confirmar roles e investigador responsable; verificar las referencias de R3; unificar los objetivos.
+
 ## 2026-11-14 · Convenciones generales para commits
 - **Quién:** Claude
 - **Qué cambió:** se establecieron los tipos y usos permitidos para los mensajes de commit (`feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`).
