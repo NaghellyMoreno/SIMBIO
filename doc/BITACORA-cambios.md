@@ -2,6 +2,14 @@
 
 Entradas de la más reciente a la más antigua. Formato y obligatoriedad: ver [REGLA-documentacion-de-cambios.md](REGLA-documentacion-de-cambios.md).
 
+## 2026-11-18 · Documento de entradas y salidas de SIMBIO
+- **Quién:** Claude (a pedido de Karen)
+- **Qué cambió:** se creó el doc "SIMBIO – Entradas y salidas del prototipo" (https://claude.ai/artifact/SYEPxaJfCsfg6nCDRTSwox): diagrama del sistema, tabla de las 6 entradas (E1–E6) y de las 4 salidas + 1 opcional (S1–S5) con pin, señal, rango y regla de control, matriz de qué entrada decide cada salida, alarmas críticas y avisos, mandos del operario y salidas de datos. Sin cambios de diseño: refleja el plan del 12 nov y el firmware actual.
+- **Por qué:** Karen pidió un documento que explique las entradas y salidas del prototipo.
+- **Archivos afectados:** ninguno local; copia en Markdown en los docs del proyecto (`claude/entradas-y-salidas.md`)
+- **Documentos actualizados:** `decisiones/03-hardware-prototipo.md` (enlace en "Configuración resultante")
+- **Pendiente derivado:** definir pin y conexión del agitador si se incluye (07).
+
 ## 2026-11-18 · Guía de montaje por tramos y sketches de prueba
 - **Quién:** Claude (a pedido de Karen)
 - **Qué cambió:** se creó la guía de montaje del prototipo en 12 tramos (0 a 11), con un criterio de aceptación por tramo y la prueba con melaza al final (doc "SIMBIO – Guía de montaje por tramos": https://claude.ai/artifact/QbPEWdqhXDLZFjRGxTH8FU). Se agregaron 12 sketches de prueba independientes, uno por tramo, con los pines del 12 nov y las mismas librerías del firmware (DHTesp, MFRC522, OneWire, DallasTemperature; servo por LEDC sin librería). La guía incluye las instrucciones para el código pendiente de AyC (modo escalón, PI por ventana de tiempo con anti-windup y servidor Modbus TCP según M4 y M9).

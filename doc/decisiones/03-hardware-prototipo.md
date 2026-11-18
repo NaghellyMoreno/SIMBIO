@@ -9,6 +9,8 @@
 
 **Control:** ESP32 en el prototipo; PLC LOGO! 12/24RCE para la planta de 4 tanques del informe AyC.
 
+Explicación detallada de cada entrada y salida (pines, señales, reglas de control, alarmas): doc "SIMBIO – Entradas y salidas del prototipo" (https://claude.ai/artifact/SYEPxaJfCsfg6nCDRTSwox).
+
 ## Decisiones
 | # | Decisión | Fecha | Motivo / alternativa descartada |
 |---|---|---|---|
