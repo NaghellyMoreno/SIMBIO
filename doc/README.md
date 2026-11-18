@@ -15,8 +15,9 @@
 | [decisiones/06-referencias.md](decisiones/06-referencias.md) | Normas, correcciones y datos verificados |
 | [decisiones/07-pendientes-y-preguntas.md](decisiones/07-pendientes-y-preguntas.md) | Preguntas abiertas y trabajo pendiente |
 | [decisiones/08-equipo-investigador.md](decisiones/08-equipo-investigador.md) | Integrantes, grupos, tipo de proyecto y roles (formato VIP) |
+| [decisiones/09-alineacion-cuatro-materias.md](decisiones/09-alineacion-cuatro-materias.md) | Alineación con AyC, IoT, Emprendimiento e IPI; cambios de AyC (PI, Modbus, SCADA); hipótesis |
 
 ## Otros archivos de esta carpeta
-- `textos/` — textos listos para pegar en los entregables: sección c (equipo) y d.4 (metodología) de la formulación VIP.
+- `textos/` — textos listos para pegar en los entregables: sección c (equipo), d.4 (metodología) y d.5–d.9 (resultados, impactos, cronograma, compromisos y bibliografía) de la formulación VIP. Los vigentes son los `*-TRL5.md`, alineados el 2026-11-18 con las fases inscritas en EAiFi 13.0; versiones anteriores en `textos/_respaldo/`.
 - `SIMBIO – Presupuesto del proyecto.xlsx` — hoja de presupuesto.
 - `Guia-Biofabrica-Anacafe.pdf` — guía de referencia.

@@ -1,6 +1,6 @@
 # 03 · Hardware del prototipo
 
-**Estado:** vigente (fases iniciales; se revisa si se consigue patrocinio) · **Última actualización:** 2026-11-14
+**Estado:** vigente (fases iniciales; se revisa si se consigue patrocinio) · **Última actualización:** 2026-11-18
 
 ## Configuración resultante
 **Entradas (6):** pH (PH-4502C + E201), temperatura del líquido (DS18B20), nivel (HC-SR04), gases (MQ-135), lote (RFID RC522), temperatura y humedad ambiente (DHT11).
@@ -25,6 +25,11 @@
 | H11 | **Lado de 110 V** (relés, red, bomba, calentador) dentro de una **caja de paso 10 × 10** con bornera de tornillo 10 A / 250 V y pasacables; nunca en la protoboard. Se conserva el termostato del calentador | 2026-11-12 | Seguridad. Las "borneras" del kit CCTV son plugs DC y no sirven |
 | H12 | Componentes **prestados**: 2 × RC522 con tarjetas y llaveros, 2+ relés Songle SRD-05VDC-SL-C (10 A/250 V), DHT11, MQ-5, adaptador Techman | 2026-11-11 | — |
 | H13 | Se descartaron el sensor de OD SEN0237-A, la bomba peristáltica, el JSN-SR04T, la fuente de 12 V, el LM2596, los 74LS, displays de 7 segmentos y la batería de 9 V | 2026-11-05 a 12 | Costo o no aplican |
+| H14 | **Montaje por tramos** (0 a 11), uno a la vez, con sketch de prueba y criterio de aceptación cada uno; la melaza solo en el tramo 11, después de probar todo con agua. Guía: https://claude.ai/artifact/QbPEWdqhXDLZFjRGxTH8FU | 2026-11-18 | Pedido de Karen: comprobar cada tramo antes del siguiente |
+| H15 | **Caja de paso:** fusible de 1 A en la fase de entrada; fase por COM–NO de cada relé, neutro directo; salidas a tomas hembra para no cortar los cables de la bomba y el calentador; revisión por alguien con experiencia eléctrica y primera prueba con un bombillo | 2026-11-18 | Seguridad (recomendado; por conseguir) |
+| H16 | **Bomba de aire por encima del borde del garrafón** o con válvula antirretorno | 2026-11-18 | Evitar que el agua se devuelva a la bomba al apagarse |
+| H17 | **Riel de 5 V ≥ 4,85 V con carga** (MQ-135 en el tramo 1; servo moviéndose en el tramo 9). Si no se cumple a 7,5 V, el adaptador pasa a 9 V | 2026-11-18 | A 7,5 V, tras el 1N4007 quedan ~6,7 V y el L7805 necesita ~7 V para regular |
+| H18 | **Aislar el garrafón** (icopor o aislante reflectivo, con ventana para ver el nivel) si el escalón se estabiliza por debajo de 30 °C. La prueba escalón se hace de 0 a 100 % de calentador desde la temperatura ambiente | 2026-11-18 | Estimación: pérdidas de ~2,5 W/°C sin aislar; con 25 W el agua quedaría ~10 °C sobre el ambiente. El termostato del calentador corta a 32 °C, así que la consigna de 37 °C de M11 no es alcanzable |
 
 ## Pines del ESP32 (plan del 12 nov 2026, sin I2C)
 | Función | GPIO |
@@ -54,3 +59,5 @@ Si se agregan ADS1115 o RTC: I2C vuelve a 21/22, relés a 32/33 y pulsadores a 3
 - Cargas inductivas DC con diodo de rueda libre; servo con 470 µF cerca y GND común.
 - Interferencia entre sondas: leer una sonda analógica a la vez; compensar el pH con el DS18B20.
 - Sonda E201: limpiar, guardar húmeda en KCl, calibrar con buffers 4 y 7.
+- Con el ESP32 conectado por USB, desconectar el cable del riel de 5 V a su pin 5V/VIN (el GND común se mantiene).
+- Si un relé no se apaga con 3,3 V: un 2N2222 por relé (GPIO → 1 kΩ → base, emisor a GND, colector a IN) y `RELE_ACTIVO_ALTO` en 1.

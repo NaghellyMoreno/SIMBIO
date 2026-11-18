@@ -7,6 +7,7 @@
 |---|---|---|
 | R1 | Normas: **APA 7** en el informe AyC; **IEEE o APA** en el artículo, según la revista (categoría B) | 2026-11-05 |
 | R3 | Productos del equipo citados en la sección c (formulación VIP). Verificados en la web: Sánchez y Cardona (2008), *Bioresource Technology* 99(13); Restrepo, Rincón y Sánchez (2023), *Fermentation* 9, 705; González-Gutiérrez et al. (2021), *Visión Electrónica* 15(1); Caicedo-Eraso et al. (2012), *Vector* 7. **Sin verificar:** coautores y datos de Varón-Serna (2013, J. Phys. Conf. Ser.), CRC Press (2010) y Cardona y Sánchez (2007) 98(12) | 2026-11-15 |
+| R4 | **27 referencias nuevas** (7 blancas, 18 grises, 2 patentes) para las cuatro materias, con APA y enlace en el doc de alineación (https://claude.ai/artifact/VDSKLMHXbpAA7DP74ZwbrR). Clave para el vacío: Ruiz Rubiano y Góngora Herrera (2023, U. Distrital, hdl 11349/37520) y Champa et al. (2026), JCST 16(2), 186. **Por verificar:** autores de Sensors 23(10), 4896 (MQTT vs HTTP) y volumen/DOI de Park et al. (2020). Inconsistencia de Xavier **resuelta el 2026-11-17** (ver 09, M13) | 2026-11-17 |
 | R2 | Meta: **≥ 30 referencias** en el artículo (hoy hay 35 únicas en la investigación y 34 en el borrador) | 2026-11-05 |
 
 ## Correcciones que deben aplicarse en los textos

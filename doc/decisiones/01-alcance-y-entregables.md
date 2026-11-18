@@ -1,6 +1,6 @@
 # 01 · Alcance del proyecto y entregables
 
-**Estado:** vigente · **Última actualización:** 2026-11-15
+**Estado:** vigente · **Última actualización:** 2026-11-17
 
 ## Contexto
 SIMBIO es un prototipo mínimo viable (maqueta HW/SW) para los cursos *Automatización y Control de Procesos* (AyC) y *Fundamentos de IoT*, Ingeniería de Sistemas y Computación, Universidad de Caldas. Trabajo en parejas.
@@ -11,6 +11,7 @@ SIMBIO es un prototipo mínimo viable (maqueta HW/SW) para los cursos *Automatiz
 | A1 | El proyecto cumple los requisitos **de los dos cursos**, tomando lo más exigente de cada uno | 2026-11-05 | Un solo prototipo para AyC e IoT |
 | A2 | Mínimos: **≥ 5 entradas**, control, **≥ 4 salidas distintas** (luz y sonido cuentan como una), **web + app**, base de datos | 2026-11-05 | Guías de ambos cursos |
 | A3 | Título vigente (15 palabras, límite VIP): *Sistema de trazabilidad por lote para la producción artesanal de bioinsumos en biofábricas de Caldas*. Alternativo: *Sistema IoT de control y trazabilidad por lote para biofábricas artesanales de bioinsumos en Caldas* | 2026-11-05 | Cumple el formato VIP |
+| A5 | El proyecto también sirve a **Emprendimiento (25G8F)** e **Investigación para Ingeniería (34G8F)**: cuatro materias en total. Ver [09](09-alineacion-cuatro-materias.md). *Amplía A1.* | 2026-11-17 | Pedido de Karen |
 | A4 | Objetivos específicos: **3** en formulación, talleres y artículo; **4** (uno por nivel de Bloom) en el informe de AyC | 2026-11-05 | Lo exige cada esquema |
 
 ## Entregables (en orden)

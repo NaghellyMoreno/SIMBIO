@@ -28,3 +28,9 @@ No se compran: DHT11, relés, fuente de 12 V, LM2596, tags RFID, buffers, microS
 ## Pendiente de decidir
 - ¿El Anexo 1 (VIP) usa el diseño completo ($448.159; VIP $1.234.359) o el reducido ($233.184)?
 - Confirmar valor hora del docente, costo de la ruta a la finca, préstamos de laboratorio y aporte de la finca.
+
+## Presupuesto de la formulación VIP (2026-11-18)
+| # | Decisión | Fecha | Motivo / alternativa descartada |
+|---|---|---|---|
+| B-VIP1 | Anexo 1 en el formato general de presupuesto (`IPI/SIMBIO_Presupuesto_VIP.xlsx`), solo AÑO 1 (12 meses). Efectivo VIP $35.000.000: inversión 3.1.1 $16.631.788 (47,5 %: kit de adaptación + medidor multiparamétrico de referencia), auxiliares 1.2 $7.000.000 (20 %: apoyo a la estudiante, $1.750.000 × 4 meses), exámenes 2.1.1 $3.000.000, materiales de laboratorio 2.2.3 $4.368.212, viajes 2.3 $4.000.000 (tiquetes 1.600.000, inscripción 800.000, alojamiento 1.600.000). Especie: equipos propios 3.1.2 $233.184 (prototipo TRL 4); horas de investigadores por diligenciar | 2026-11-18 | Cumple a la vez los términos (inversión ≥ 30 %, ≤ 1,5 SMMLV/mes a la estudiante, sin honorarios de investigadores) y los límites de la hoja % RUBROS (servicios personales ≤ 20 %, gastos generales 30–50 %, inversión 30–70 %). *Reemplaza* la distribución de ejercicio del 17 nov (apoyo $13.131.788 = 37,5 %, que superaba el 20 %) |
+| B-VIP2 | Se repararon fórmulas de la plantilla: encabezados de AÑO 1 invertidos frente al sombreado; en Presupuesto Total, C13 = 99999 fijo, ceros fijos en toda la inversión, sumas de grupo que contaban dos veces y administración del 20 % sobre todas las columnas; división por cero en % de fuentes y % RUBROS | 2026-11-18 | Sin la reparación, el total en efectivo no cuadraba |
