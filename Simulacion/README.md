@@ -146,3 +146,6 @@ Todos los valores están en `simbio/config.h` (macro `SIM_O_REAL`).
 - **WiFi no conecta en Wokwi:** revisa la licencia y la conexión a internet. La red es `Wokwi-GUEST`.
 - **`[NUBE] … HTTP 401/403`:** la clave o las políticas RLS están mal; vuelve a ejecutar `esquema.sql`. **`HTTP 404`:** la URL está mal o faltan las tablas.
 - **Cualquier otro error de compilación:** copia el mensaje completo y compártelo.
+
+## Pruebas por tramo del montaje real
+La carpeta `pruebas_por_tramo/` tiene un sketch independiente por tramo del montaje (ver su README y la guía "SIMBIO – Guía de montaje por tramos": https://claude.ai/artifact/QbPEWdqhXDLZFjRGxTH8FU). Cada uno entrega los valores que van a `simbio/config.h` antes de cargar el firmware con `SIMBIO_SIM 0`.
