@@ -1,6 +1,6 @@
 # Formulación VIP – Secciones d.5 a d.9 (SIMBIO), versión TRL 4 → 5
 
-Actualizado el 2026-11-17 (noche) desde `formulacion-d5-d9-resultados-a-bibliografia.md`. **2026-11-18:** alineado con las tres fases inscritas en EAiFi 13.0 (OE1 documental + juicio de experto; sin lote de línea base; registros continuos como resultado; código abierto). **Objetivos: los ya escritos por el equipo, textuales (2026-11-18, P15).** Objetivos vigentes:
+Actualizado el 2026-11-17 (noche) desde `formulacion-d5-d9-resultados-a-bibliografia.md`. **2026-11-18:** alineado con las tres fases inscritas en EAiFi 13.0 (OE1 documental + juicio de experto; sin lote de línea base; registros continuos como resultado; código abierto). **Objetivos: los ya escritos por el equipo, textuales (2026-11-18, P15).** **2026-11-18 (tarde):** d.5 redactado en párrafos, sin tablas, a pedido de Karen. Objetivos vigentes:
 
 - **OG:** Desarrollar un sistema IoT de control y trazabilidad por lote para la producción artesanal de bioinsumos en biofábricas de Caldas.
 - **OE1:** Diseñar un protocolo de control de calidad y trazabilidad para la producción de bioinsumos, mediante el mapeo operativo de los parámetros críticos de control (pH y temperatura) en las biofábricas de Caldas.
@@ -13,52 +13,37 @@ Duración: 12 meses. Según los términos de referencia de la convocatoria 2026/
 
 ## d.5 Resultados esperados
 
-Cada resultado responde a un objetivo específico y tiene un medio para verificarlo. Los productos comprometidos suman 125 puntos de la Tabla 4 de la convocatoria, por encima del mínimo de 80.
+Cada resultado responde a un objetivo específico y tiene un indicador y un medio para verificarlo. Los productos comprometidos suman 125 puntos de la Tabla 4 de la convocatoria, por encima del mínimo de 80: el desarrollo tecnológico TRL 5 (80 puntos), la ponencia (20), el póster (15) y el artículo (10).
 
 ### a. Generación de nuevo conocimiento
 
-| Resultado | Indicador verificable | Medio de verificación | OE |
-|---|---|---|---|
-| Mapeo operativo del proceso de activación líquida de microorganismos de montaña (MM), hecho por análisis documental de guías técnicas, literatura y normativa: materias primas, dosis, tiempos, aireación y criterios de aceptación de un lote | Diagrama de proceso con los puntos críticos de control identificados | Diagrama incluido en el protocolo | OE1 |
-| Protocolo de control de calidad y trazabilidad para la activación líquida de MM. Define los parámetros críticos de control (pH y temperatura) con sus rangos de referencia, y la aireación y la dosis de melaza como condiciones de operación que se registran; el oxígeno disuelto se mide solo de forma puntual para validar. Define también la identificación del lote, la frecuencia de registro, los eventos que se anotan y la calibración de las sondas | Parámetros críticos de control validados por juicio de experto (experto en bioprocesos y responsable de la unidad) | Documento del protocolo y acta de validación firmada | OE1 |
-| Primera serie de registros continuos de pH, temperatura y aireación por lote en condiciones de producción en Caldas: tres lotes de la fase 3, con lecturas cada 60 segundos y los eventos de cada lote | Porcentaje de lecturas obtenidas frente a las esperadas (1.440 por día de lote) | Archivos CSV por lote en la microSD y tablas de lotes, lecturas y eventos en la base de datos | OE2, OE3 |
-| Evaluación del desempeño del prototipo en comparación con los métodos tradicionales (cuaderno, color y olor) y con instrumentos de laboratorio, para que el productor identifique cuándo y por qué se desvía un lote | Frente a los instrumentos: error medio absoluto, sesgo y límites de concordancia, con error de pH ≤ 0,2 unidades y de temperatura ≤ 0,5 °C. Frente al registro tradicional: completitud de los registros, detección oportuna de desviaciones y tiempo dedicado a registrar | Informe técnico de evaluación con series de tiempo y gráficos de concordancia | OE3 |
-| Relación exploratoria entre las condiciones registradas y los recuentos microbianos de cada lote | Recuentos al cierre de los tres lotes | Informe de laboratorio del grupo Alimentos y Agroindustria | OE3 |
-| **Artículo aceptado o publicado en revista no indexada** sobre el protocolo, el prototipo y su evaluación (10 puntos) | Un artículo aceptado o publicado | Carta de aceptación o enlace a la publicación | OE1–OE3 |
+El primer resultado, asociado al OE1, es el mapeo operativo del proceso de activación líquida de microorganismos de montaña (MM), hecho por análisis documental de guías técnicas, literatura y normativa. Recoge las materias primas, las dosis, los tiempos, la aireación y los criterios de aceptación de un lote. Se verifica con el diagrama de proceso, que identifica los puntos críticos de control y se incluye en el protocolo.
+
+Con base en ese mapeo se obtiene el protocolo de control de calidad y trazabilidad para la activación líquida de MM (OE1). El protocolo define los parámetros críticos de control, pH y temperatura, con sus rangos de referencia; trata la aireación y la dosis de melaza como condiciones de operación que se registran, y deja el oxígeno disuelto como una medición puntual de validación. También fija la identificación del lote, la frecuencia de registro, los eventos que se anotan y la calibración de las sondas. El indicador es que los parámetros críticos queden validados por juicio de experto (el experto en bioprocesos y el responsable de la unidad productora), y se verifica con el documento del protocolo y el acta de validación firmada.
+
+El proyecto produce además la primera serie de registros continuos de pH, temperatura y aireación por lote en condiciones de producción en Caldas (OE2 y OE3): tres lotes de la fase 3, con lecturas cada 60 segundos y los eventos de cada lote. Su indicador es el porcentaje de lecturas obtenidas frente a las esperadas (1.440 por día de lote), y se verifica con los archivos CSV por lote de la tarjeta microSD y con las tablas de lotes, lecturas y eventos de la base de datos.
+
+Para el OE3 se entrega la evaluación del desempeño del prototipo en comparación con los métodos tradicionales (cuaderno, color y olor) y con instrumentos de laboratorio, de modo que el productor identifique cuándo y por qué se desvía un lote. Frente a los instrumentos se calculan el error medio absoluto, el sesgo y los límites de concordancia, con la meta de un error de hasta 0,2 unidades de pH y de 0,5 °C en temperatura. Frente al registro tradicional se comparan la completitud de los registros, la detección oportuna de desviaciones y el tiempo dedicado a registrar. El medio de verificación es un informe técnico de evaluación con las series de tiempo y los gráficos de concordancia. Como complemento, se explora la relación entre las condiciones registradas y los recuentos microbianos al cierre de los tres lotes, que se verifica con el informe de laboratorio del grupo Alimentos y Agroindustria.
+
+El conocimiento generado se consolida en un **artículo aceptado o publicado en una revista no indexada** (10 puntos) sobre el protocolo, el prototipo y su evaluación, que abarca los tres objetivos específicos. Se verifica con la carta de aceptación o el enlace a la publicación.
 
 ### b. Fortalecimiento de la comunidad científica colombiana
 
-| Resultado | Indicador verificable | Medio de verificación |
-|---|---|---|
-| Formación de una estudiante de maestría: Karen Naghelly Moreno Ortiz (Maestría en Bioinformática y Biología Computacional) desarrolla parte de su trabajo de grado con la base de datos de trazabilidad y el análisis de las series de tiempo por lote | Una estudiante de maestría vinculada, con avance de tesis derivado del proyecto | Certificado de vinculación y constancia de avance del trabajo de grado firmada por el director |
-| Cooperación entre GruCalPro (categoría B) y Alimentos y Agroindustria (categoría A1), que une la ingeniería de bioprocesos con la electrónica y el análisis de datos | Productos firmados por integrantes de ambos grupos | Productos registrados en el GrupLAC de los dos grupos |
+El proyecto forma a una estudiante de maestría: Karen Naghelly Moreno Ortiz, de la Maestría en Bioinformática y Biología Computacional, desarrolla parte de su trabajo de grado con la base de datos de trazabilidad y el análisis de las series de tiempo por lote. El indicador es una estudiante vinculada con avance de tesis derivado del proyecto, y se verifica con el certificado de vinculación y la constancia de avance del trabajo de grado firmada por el director.
+
+El proyecto también fortalece la cooperación entre GruCalPro (categoría B) y Alimentos y Agroindustria (categoría A1), que une la ingeniería de bioprocesos con la electrónica y el análisis de datos. El indicador son los productos firmados por integrantes de ambos grupos, que se verifican en el GrupLAC de los dos grupos.
 
 ### c. Apropiación social del conocimiento
 
-La estrategia de comunicación tiene dos públicos. A la comunidad académica se le presentan los resultados en eventos nacionales. A la unidad productora se le transfieren el protocolo y el uso del prototipo.
+La estrategia de comunicación tiene dos públicos. A la comunidad académica se le presentan los resultados en eventos nacionales con una **ponencia presencial en un evento académico nacional** (20 puntos) sobre el sistema de trazabilidad y su evaluación, que se verifica con el certificado de ponente y las memorias del evento, y con un **póster en un evento académico nacional** (15 puntos) sobre el protocolo de control de calidad y trazabilidad, que se verifica con el certificado de presentación del póster.
 
-| Resultado | Indicador verificable | Medio de verificación |
-|---|---|---|
-| **Ponencia presencial en un evento académico nacional** sobre el sistema de trazabilidad y su evaluación (20 puntos) | Una ponencia presentada | Certificado de ponente y memorias del evento |
-| **Póster en un evento académico nacional** sobre el protocolo de control de calidad y trazabilidad (15 puntos) | Un póster presentado | Certificado de presentación del póster |
-| Transferencia a la unidad productora: demostración del prototipo y entrega del protocolo y del manual de uso | Una sesión de demostración realizada | Lista de asistencia y registro fotográfico |
+A la unidad productora se le transfieren el protocolo y el uso del prototipo en una sesión de demostración, en la que se entregan el protocolo y el manual de uso. Se verifica con la lista de asistencia y el registro fotográfico.
 
 ### d. Innovación tecnológica y desarrollo tecnológico
 
-| Resultado | Indicador verificable | Medio de verificación |
-|---|---|---|
-| **Prototipo IoT de control y trazabilidad por lote validado en entorno relevante (TRL 5)** (80 puntos). Se basa en un ESP32, identifica cada lote con RFID, registra pH, temperatura y aireación y controla temperatura, aireación y dosis de melaza. Guarda los datos en tarjeta SD cuando no hay conexión y los sincroniza con una base de datos en la nube que se consulta desde una página web y una aplicación móvil | Tres lotes en la unidad productora con las metas de exactitud (pH ≤ 0,2; T ≤ 0,5 °C), control (≥ 90 % del tiempo en ±0,5 °C) y completitud (≥ 99 %) | Informe de validación, video de demostración y prototipo instalado |
-| Paquete técnico replicable en código abierto: firmware, esquema de la base de datos, web y app, lista de materiales con costos y manual de ensamblaje y uso | Código abierto documentado, con licencia libre, y manual entregado | Repositorio público del código y manual técnico |
+El resultado principal es el **prototipo IoT de control y trazabilidad por lote validado en entorno relevante (TRL 5)** (80 puntos). Se basa en un ESP32, identifica cada lote con RFID, registra pH, temperatura y aireación, y controla la temperatura, la aireación y la dosis de melaza. Guarda los datos en una tarjeta SD cuando no hay conexión y los sincroniza con una base de datos en la nube que se consulta desde una página web y una aplicación móvil. El indicador es su operación durante tres lotes en la unidad productora con las metas de exactitud (pH ≤ 0,2 y temperatura ≤ 0,5 °C), control (al menos el 90 % del tiempo dentro de ±0,5 °C) y completitud (al menos el 99 % de los registros). Se verifica con el informe de validación, un video de demostración y el prototipo instalado.
 
-### Resumen de productos comprometidos (Tabla 4)
-
-| Producto | Puntos |
-|---|---|
-| Desarrollo tecnológico, nivel de madurez mayor o igual a TRL 5 | 80 |
-| Ponencia presencial en evento académico nacional | 20 |
-| Póster en evento académico nacional | 15 |
-| Artículo aceptado o publicado en revista no indexada | 10 |
-| **Total** | **125** |
+El prototipo se acompaña de un paquete técnico replicable en código abierto: el firmware, el esquema de la base de datos, la web y la app, la lista de materiales con costos y el manual de ensamblaje y uso. Se verifica con el repositorio público del código, con licencia libre, y con el manual técnico entregado.
 
 ---
 

@@ -24,7 +24,8 @@ Cuando una pregunta se resuelva, se registra la decisión en el documento del te
 9. Préstamo del pH-metro y el termómetro de laboratorio del 19 al 24 nov.
 
 ## Formulación VIP (IPI) – pendientes del 2026-11-17 (noche)
-- Investigador responsable (asterisco): Diana propuesta (Óscar firma los términos como Vicerrector (E)); confirmar si Diana es de planta u ocasional.
+- ~~Investigador responsable (asterisco): Diana propuesta~~ → resuelto 2026-11-18: Óscar es el investigador principal (ver 08, E6). Sigue por confirmar si Diana es de planta u ocasional.
+- Escribir el salario base de Óscar y de Diana en `IPI/SIMBIO_Presupuesto_VIP.xlsx`, hoja "Horas investigadores", celdas amarillas F7 y F8 (ver 05, B-VIP3). Confirmar que el proyecto dura 48 semanas.
 - Requisito habilitante modalidad A: autorreconocimiento voluntario de Diana o Karen.
 - ~~Puntaje TRL 5~~ Resuelto: 80 puntos; total 125.
 - Con Óscar: Planta de Bioprocesos de la Granja Tesorito como unidad productora y recuentos microbianos en el laboratorio de Alimentos y Agroindustria.
@@ -55,7 +56,7 @@ Cuando una pregunta se resuelva, se registra la decisión en el documento del te
 - Formulación VIP: redactar el título y el resumen ejecutivo (b); llenar el presupuesto (incluir el viaje a la ponencia). ~~d.5–d.8~~ redactadas el 2026-11-17 en `Doc/textos/` (falta pegarlas).
 - Bibliografía d.9: completar Vu et al. (2026) y la URL de Sigma Electrónica; confirmar Kumar et al. (2026) y Lana et al. (2022).
 - Confirmar la duración del proyecto (cronograma supuesto de 12 meses). ~~Si la fase 3 usa uno o tres lotes~~ Resuelto: tres lotes en la formulación VIP, como se inscribió en EAiFi 13.0 (02, P14); un lote de 10 L en las materias.
-- Marcar al investigador responsable con asterisco y confirmar los roles (ver 08, E4).
+- ~~Marcar al investigador responsable con asterisco y confirmar los roles (ver 08, E4)~~ (resuelto en 08, E6).
 - Verificar las referencias pendientes de la sección c (ver 06, R3).
 - Ejecutar el piloto y llenar la Tabla 3 del artículo.
 - Confirmar el calendario del montaje: con la secuencia por tramos, el lote de MM iría del 21 al 26 nov (M11 decía 19 al 24); entrega final el 27.

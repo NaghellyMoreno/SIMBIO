@@ -2,6 +2,30 @@
 
 Entradas de la más reciente a la más antigua. Formato y obligatoriedad: ver [REGLA-documentacion-de-cambios.md](REGLA-documentacion-de-cambios.md).
 
+## 2026-11-19 · Artículo final único para AyC e IoT y revisión de pendientes
+- **Quién:** Claude (a pedido de Karen)
+- **Qué cambió:** se redactó el artículo final en el doc "SIMBIO – Artículo final (AyC e IoT)" (https://claude.ai/artifact/BhhSUsCaAyeT1CUjog75z5), un solo texto para las dos materias: título inscrito en EAiFi, autores Karen y Camila, resumen de ~199 palabras + 5 palabras clave, abstract, introducción con los objetivos textuales (P15), trabajos relacionados (Tabla 1), metodología (protocolo, Figura 1 de arquitectura, hardware 10 L sin ADS1115 ni RTC, modelo FOPDT estimado por balance de energía: τ ≈ 3,7 h y K ≈ 10 °C con UA ≈ 2,5 W/°C; PI por ventana con SIMC; Supabase, Modbus TCP y LabVIEW; comparación de plataformas con criterios técnicos, prácticos y éticos; protocolo de pruebas y métricas), resultados con tablas listas para llenar (marcadas [dato]), discusión con limitaciones, conclusiones y 49 referencias APA 7. Se agregaron cuatro referencias que no estaban en la biblioteca: Skogestad (2003), Modbus Organization (2012), Supabase (s. f.) y Google Firebase (s. f.). Reemplaza al borrador SIMBIO_Articulo_Borrador.docx (que no está en la carpeta).
+- **Por qué:** Karen pidió identificar lo que falta para cerrar AyC e IoT y generar el artículo final, el mismo para ambas materias.
+- **Archivos afectados:** ninguno local (el artículo vive en claude.ai)
+- **Documentos actualizados:** docs del proyecto `claude/estado-entregables.md`
+- **Pendiente derivado:** llenar los [dato] con el montaje, el escalón, ON-OFF vs PI, las fallas provocadas y el lote de MM; apellidos y correos de Camila; foto del prototipo; video; web, app, Modbus, PI y LabVIEW; agregar `secrets.h` al .gitignore antes de poner la clave real (hoy está versionado con valores de ejemplo).
+
+## 2026-11-18 · d.5 Resultados esperados en párrafos
+- **Quién:** Claude (a pedido de Karen)
+- **Qué cambió:** la sección d.5 de la formulación VIP pasó de tablas (resultado, indicador, medio de verificación) a párrafos, con los mismos resultados, indicadores, medios de verificación y puntos. Se quitó la tabla resumen de productos y los 125 puntos quedaron en el párrafo inicial. El formato no fija límite de palabras para d.5.
+- **Por qué:** Karen pidió los resultados en párrafos y no en tablas.
+- **Archivos afectados:** `IPI/SIMBIO_Formulacion_VIP.docx`, `Doc/textos/formulacion-d5-d9-TRL5.md`
+- **Documentos actualizados:** ninguno (doc de la formulación en claude.ai: la tabla de d.5 se reemplazó por el texto nuevo)
+- **Pendiente derivado:** ninguno.
+
+## 2026-11-18 · Óscar como investigador principal y horas en el presupuesto
+- **Quién:** Claude (a pedido de Karen)
+- **Qué cambió:** Óscar Julián Sánchez Toro queda como investigador principal (con asterisco), 6 h/semana; Diana y Karen como coinvestigadoras, 4 h/semana. En el Anexo 1 se agregó la hoja "Horas investigadores" (48 semanas; valor hora docente = salario base × 1,6 ÷ 160; Karen a $6.250/h = $1.200.000) enlazada al rubro 1.1 en especie, y el rubro 1.2 pasó a llamarse "Auxiliares – apoyo económico a estudiante de maestría (num. 8 de los términos)". En la formulación se actualizaron el encabezado, los roles con horas en d.4 (998 palabras), el párrafo de especie y la tabla de personal del desglose.
+- **Por qué:** Karen definió al investigador principal, las cargas horarias y la fórmula del valor hora, y preguntó por qué decía "Auxiliares" si los términos no los cubren.
+- **Archivos afectados:** `IPI/SIMBIO_Formulacion_VIP.docx`, `IPI/SIMBIO_Presupuesto_VIP.xlsx`, `Doc/textos/formulacion-b-d1-d3-d4-TRL5.md`
+- **Documentos actualizados:** `decisiones/08-equipo-investigador.md` (E6, reemplaza E4), `decisiones/05-presupuesto.md` (B-VIP3), `decisiones/07-pendientes-y-preguntas.md`
+- **Pendiente derivado:** escribir el salario base de Óscar y Diana en las celdas amarillas F7 y F8; confirmar las 48 semanas y la vinculación de Diana.
+
 ## 2026-11-18 · Documento de entradas y salidas de SIMBIO
 - **Quién:** Claude (a pedido de Karen)
 - **Qué cambió:** se creó el doc "SIMBIO – Entradas y salidas del prototipo" (https://claude.ai/artifact/SYEPxaJfCsfg6nCDRTSwox): diagrama del sistema, tabla de las 6 entradas (E1–E6) y de las 4 salidas + 1 opcional (S1–S5) con pin, señal, rango y regla de control, matriz de qué entrada decide cada salida, alarmas críticas y avisos, mandos del operario y salidas de datos. Sin cambios de diseño: refleja el plan del 12 nov y el firmware actual.

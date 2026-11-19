@@ -30,7 +30,7 @@ Los resultados esperados son un protocolo de control de calidad y trazabilidad p
 2. Desarrollar un prototipo IoT (TRL 4), basado en el protocolo, para el registro por lote con capacidad de almacenamiento offline.
 3. Evaluar el desempeño del prototipo implementado en comparación con los métodos tradicionales.
 
-## d.4 Metodología (991 palabras)
+## d.4 Metodología (998 palabras)
 
 Es una investigación aplicada en tres fases, una por objetivo específico.
 
@@ -70,6 +70,6 @@ Es una investigación aplicada en tres fases, una por objetivo específico.
 
 Los datos se analizan con estadística descriptiva, series de tiempo por lote y gráficos de concordancia. Los resultados se presentan en un informe técnico, un artículo, una ponencia, un póster y una demostración del sistema en la unidad productora. El código se publica como código abierto.
 
-**Roles.** Óscar Julián Sánchez Toro orienta el bioproceso, el protocolo, los recuentos microbianos y la validación; Diana Rocío Varón Serna dirige la adaptación del hardware y la comunicación; Karen Naghelly Moreno Ortiz administra la base de datos, procesa las series de tiempo y analiza los resultados.
+**Roles.** Óscar Julián Sánchez Toro, investigador principal (6 h/sem), orienta el bioproceso, el protocolo, los recuentos y la validación; Diana Rocío Varón Serna (4 h/sem) dirige la adaptación del hardware y la comunicación; Karen Naghelly Moreno Ortiz (4 h/sem) administra la base de datos, procesa las series de tiempo y analiza los resultados.
 
 **Consideraciones éticas.** El proyecto no incluye entrevistas ni encuestas; la unidad productora participa con una carta de aval. Los bioinsumos de los lotes de prueba no se aplican a cultivos ni se comercializan y se inactivan antes de desecharlos. Las conexiones de 110 V van en una caja cerrada.
